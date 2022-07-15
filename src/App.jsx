@@ -1,11 +1,12 @@
-import { useState } from 'react'
+import { useState } from 'react';
 
-function App() {
-  const [count, setCount] = useState(0)
+import { Header } from './components/Header';
+import './styles.css';
 
+export function App() {
   return (
-    <h1>Hello World</h1>
-  )
+    <div>
+      <Header />
+    </div>
+  );
 }
-
-export default App
